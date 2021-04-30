@@ -131,13 +131,14 @@ button {
 	border-radius: 24px;
 	border: none;
 	background: linear-gradient(178deg, #f3cea9, #ca7045);
-	width: 100%;
+	width: auto;
 	padding: 12px 16px;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 700;
 	color: #000;
 	outline: none;
 	transition: opacity 0.2s;
+	cursor: pointer !important;
 }
 
 button:hover { opacity: .8 }
