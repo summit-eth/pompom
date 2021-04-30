@@ -146,6 +146,8 @@ button {
 	outline: none;
 	transition: opacity 0.2s;
 	cursor: pointer !important;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
 button:hover { opacity: .8 }
