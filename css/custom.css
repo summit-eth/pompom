@@ -54,7 +54,7 @@ b { font-weight: 700; color: #e27d4e !important; }
 }
 .container:not(#c_hero) {
 	width: 100%;
-	max-width: 600px;
+	max-width: 720px;
 	min-width: 260px;
 	border-radius: 0px;
 	padding: 8px;
@@ -67,6 +67,7 @@ b { font-weight: 700; color: #e27d4e !important; }
 	.container .sub {
 		border-radius: 0px;
 		padding: 16px;
+		text-align: justify;
 	}
 	
 	.container .sub:not(:first-child) {
@@ -128,14 +129,19 @@ input::-webkit-inner-spin-button {
 
 button {
 	margin-top: 16px;
-	border-radius: 24px;
+	border-radius: 10px;
+	/*
 	border: none;
 	background: linear-gradient(178deg, #f3cea9, #ca7045);
+	color: #000;
+	*/
+	border: 2px solid #ca7045;
+	background: #000c;
+	color: #f3cea9;
 	width: auto;
 	padding: 12px 16px;
 	font-size: 12px;
 	font-weight: 700;
-	color: #000;
 	outline: none;
 	transition: opacity 0.2s;
 	cursor: pointer !important;
