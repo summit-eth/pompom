@@ -128,7 +128,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-button {
+button, [button] {
 	margin-top: 16px;
 	border-radius: 10px;
 	/*
@@ -150,7 +150,7 @@ button {
 	margin-right: 4px;
 }
 
-button:hover { opacity: .8 }
+button:hover, [button] { opacity: .8 }
 
 td > button {
 	font-size: 12px !important;
