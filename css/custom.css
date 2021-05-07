@@ -56,7 +56,7 @@ b { font-weight: 700; color: #e27d4e !important; }
 }
 .container:not(#c_hero) {
 	width: 100%;
-	max-width: 720px;
+	max-width: 800px;
 	min-width: 260px;
 	border-radius: 0px;
 	padding: 8px;
