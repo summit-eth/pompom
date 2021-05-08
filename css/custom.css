@@ -148,9 +148,11 @@ button, [button] {
 	cursor: pointer !important;
 	margin-left: 4px;
 	margin-right: 4px;
+	display: inline-block;
+	text-decoration: none;
 }
 
-button:hover, [button] { opacity: .8 }
+button:hover, [button]:hover { opacity: .8 }
 
 td > button {
 	font-size: 12px !important;
